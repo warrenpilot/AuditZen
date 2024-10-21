@@ -46,8 +46,8 @@ save_pdf_files = 'Y'
 
 # Counts the number of screenshots in the ouput_file.  This is the smaple number
 sample_files = [f for f in os.listdir(output_folder) if f != 'Thumbs.db']
-sample_number = round((len(sample_files) + 1.001)/2, ndigits=0) if save_pdf_files == 'Y'  \
-                    else round(len(sample_files) + 1, ndigits=0)
+sample_number = int(round((len(sample_files) + 1.001)/2, ndigits=0)) if save_pdf_files == 'Y'  \
+                    else int(round(len(sample_files) + 1, ndigits=0))
 
 # Take the screenshot
 screenshot = pag.screenshot(region=screen_region)
