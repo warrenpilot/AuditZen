@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-TextBoxes_into_Existing_PDF
+Add_text_boxes_to_PDF
 
 The script places a customized set of text boxes (or annotations) into an
 existing PDF.
