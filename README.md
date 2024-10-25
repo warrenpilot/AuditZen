@@ -12,4 +12,6 @@
 
 * **Add_text_boxes_to_PDF:** Adds any number of text boxes (with input for text and page number for each) using a dictionary or Excel template.
 
+* **Convert_Files_to_PDF:** Copies all Word, PowerPoint and JPEG files in a folder to pdf which are placed in the same folder.
+
 
