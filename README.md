@@ -14,4 +14,6 @@
 
 * **Convert_Files_to_PDF:** Copies all Word, PowerPoint and JPEG files in a folder to pdf which are placed in the same folder.
 
+* **Merge_All_PDF_Files_in_Folder_into_one_PDF:** Identifies all PDF files in the provided folder and merges them into one PDF File.
+
 
